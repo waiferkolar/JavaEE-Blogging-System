@@ -12,6 +12,7 @@
 <sql:query var="posts" dataSource="${ds}" sql="SELECT * FROM posts"/>
 
 <div class="container my-5">
+    <h1>Hello World!</h1>
     <div class="row card-area">
         <c:forEach var="post" items="${posts.rows}">
             <div class="col-md-4 mb-3">
